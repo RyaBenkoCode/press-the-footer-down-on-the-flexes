@@ -1,0 +1,21 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+.header,
+.footer {
+  padding: 20px;
+  background-color: blue;
+}
+
+.content {
+  max-width: 880px;
+  margin: 0 auto;
+  padding: 40px 20px;
+}

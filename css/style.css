@@ -8,6 +8,17 @@ html {
   box-sizing: inherit;
 }
 
+.page {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.footer {
+  margin-top: auto;
+}
+
 .header,
 .footer {
   padding: 20px;

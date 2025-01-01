@@ -14,10 +14,9 @@ body {
 }
 
 .page {
+  display: flex;
+  flex-direction: column;
   overflow: hidden;
-  display: grid;
-  grid-template-rows: auto 1fr auto;
-  grid-template-areas: "header" "content" "footer";
   min-height: 100vh;
 }
 
@@ -32,6 +31,7 @@ body {
 }
 
 .content {
+  flex: 1 1 auto;
   max-width: 880px;
   margin: 0 auto;
   padding: 40px 20px;
